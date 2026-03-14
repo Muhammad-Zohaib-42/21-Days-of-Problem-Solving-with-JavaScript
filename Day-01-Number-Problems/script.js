@@ -73,3 +73,20 @@ for (let i = 1; i <= n; i++) {
 
 console.log(factorial)
 */
+
+// 6. Sum of All Even Numbers up to N
+
+// Input: 10
+// Output: 30 (2+4+6+8+10)
+// ✨ Combines loops + condition + accumulation.
+
+/*
+const n = 10
+let sum = 0
+
+for (let i = 1; i <= n; i++) {
+    if (i % 2 === 0) sum += i
+}
+
+console.log(sum)
+*/
