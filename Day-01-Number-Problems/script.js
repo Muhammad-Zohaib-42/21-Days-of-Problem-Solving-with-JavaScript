@@ -145,3 +145,25 @@ const n = 5
 
 for (let i = 1; i <= n; i++) console.log(i * i * i)
 */
+
+// 11. Print only the numbers that are both even and perfect squares
+
+// Input: 1 to 20
+// Output: 4 16
+// ✨ Encourages combining two conditions within one loop.
+
+/*
+const n = 20
+
+function isPerfectSquare(num) {
+    for (let i = 1; i <= num; i++) {
+        if (i * i === num) return true
+    }
+
+    return false
+}
+
+for (let i = 1; i <= n; i++) {
+    if (i % 2 === 0 && isPerfectSquare(i)) console.log(i)
+}
+*/
