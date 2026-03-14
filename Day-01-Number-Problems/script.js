@@ -90,3 +90,29 @@ for (let i = 1; i <= n; i++) {
 
 console.log(sum)
 */
+
+// 7. Print Squares of Numbers from 1 to N
+
+// Input: 5
+// Output: 1 4 9 16 25
+// ✨ Introduces arithmetic pattern generation.
+
+/*
+const n = 5
+
+for (let i = 1; i <= n; i++) console.log(i * i)
+*/
+
+// 8. Print all numbers divisible by 3 and 5 up to N
+
+// Input: 30
+// Output: 15 30
+// ✨ Reinforces conditional checks inside loops.
+
+/*
+const n = 30
+
+for (let i = 1; i <= n; i++) {
+    if (i % 3 === 0 && i % 5 === 0) console.log(i)
+}
+*/
