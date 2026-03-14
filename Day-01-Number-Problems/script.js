@@ -47,7 +47,11 @@ for (let i = 1; i <= n; i++) {
 // ✨ Encourages cumulative addition and variable usage.
 
 /*
-const n = 5
+brute force solution
+
+console.time()
+
+const n = 1000000000000
 let sum = 0
 
 for (let i = 1; i <= n; i++) {
@@ -55,6 +59,20 @@ for (let i = 1; i <= n; i++) {
 }
 
 console.log(sum)
+
+console.timeEnd()
+*/
+
+/*
+optimized solution
+
+console.time()
+
+const n = 1000000000000
+const sum = n * (n + 1) / 2
+console.log(sum)
+
+console.timeEnd()
 */
 
 // 5. Product (Factorial) of N
