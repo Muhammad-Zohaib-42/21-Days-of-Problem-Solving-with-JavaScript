@@ -45,3 +45,14 @@ for (let i = 1; i <= n; i++) {
 // Input: 5
 // Output: 15
 // ✨ Encourages cumulative addition and variable usage.
+
+/*
+const n = 5
+let sum = 0
+
+for (let i = 1; i <= n; i++) {
+    sum += i
+}
+
+console.log(sum)
+*/
