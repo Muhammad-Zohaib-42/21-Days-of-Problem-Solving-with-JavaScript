@@ -4,7 +4,6 @@
 // Output: 1 2 3 4 5
 // ✨ Teaches basic loop construction.
 
-
 /*
 const n = 10
 
@@ -26,3 +25,23 @@ for (let i = 1; i <= n; i++) {
     console.log(11 - i)
 }
 */
+
+// 3. Print All Even Numbers from 1 to N
+
+// Input: 10
+// Output: 2 4 6 8 10
+// ✨ Introduces conditional checks inside loops.
+
+/*
+const n = 10
+
+for (let i = 1; i <= n; i++) {
+    if (i % 2 === 0) console.log(i)
+}
+*/
+
+// 4. Sum of First N Natural Numbers
+
+// Input: 5
+// Output: 15
+// ✨ Encourages cumulative addition and variable usage.
