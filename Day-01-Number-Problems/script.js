@@ -56,3 +56,20 @@ for (let i = 1; i <= n; i++) {
 
 console.log(sum)
 */
+
+// 5. Product (Factorial) of N
+
+// Input: 5
+// Output: 120
+// ✨ Reinforces loop control with multiplication logic.
+
+/*
+const n = 5
+let factorial = 1
+
+for (let i = 1; i <= n; i++) {
+    factorial *= i
+}
+
+console.log(factorial)
+*/
