@@ -4,6 +4,7 @@
 // Output: 20
 // ✨ Teaches nested or chained conditional logic and comparative reasoning.
 
+/*
 function findMax(num1, num2, num3) {
     let maxNum = num1
 
@@ -12,3 +13,18 @@ function findMax(num1, num2, num3) {
 }
 
 findMax(100, 20, 50)
+*/
+
+// 2. Check if a Number is Positive, Negative, or Zero
+
+// Input: -9
+// Output: Negative
+// ✨ Practices multi-branch conditions and comparison operators.
+
+function isNumPositiveNegativeOrZero(num) {
+    if (num > 0) return console.log("positive")
+    if (num === 0) return console.log("zero")
+    if (num < 0) return console.log("negative")
+}
+
+isNumPositiveNegativeOrZero(0)
