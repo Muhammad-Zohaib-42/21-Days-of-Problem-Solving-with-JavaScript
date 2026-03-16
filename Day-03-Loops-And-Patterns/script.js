@@ -61,3 +61,23 @@
 //     }
 //     console.log(str)
 // }
+
+// 4. Input: Rows = 5
+
+// Output:
+
+// *********
+//  *******
+//   *****
+//    ***
+//     *
+// ✨ Teaches reverse space-star pattern alignment.
+
+// for (let i = 9; i >= 1; i -= 2) {
+//     let str = ""
+//     for (let j = 1; j <= 9; j++) {
+//         if (j <= (9 - i) / 2 || j > ((9 - i) / 2) + i) str += " "
+//         else str += "*"
+//     }
+//     console.log(str)
+// }
