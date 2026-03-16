@@ -174,14 +174,14 @@
 //     *
 // ✨ Focuses on conditionally printing edges and spaces.
 
-for (let i = 9; i >= 1; i -= 2) {
-    let str = ""
-    for (let j = 1; j <= 9; j++) {
-        let start = ((9 - i) / 2) + 1
-        let end = ((9 - i) / 2) + i
-        if (j < start || j > end) str += " "
-        else if (i === 9 || j === start || j === end) str += "*"
-        else str += " "
-    }
-    console.log(str)
-}
+// for (let i = 9; i >= 1; i -= 2) {
+//     let str = ""
+//     for (let j = 1; j <= 9; j++) {
+//         let start = ((9 - i) / 2) + 1
+//         let end = ((9 - i) / 2) + i
+//         if (j < start || j > end) str += " "
+//         else if (i === 9 || j === start || j === end) str += "*"
+//         else str += " "
+//     }
+//     console.log(str)
+// }
