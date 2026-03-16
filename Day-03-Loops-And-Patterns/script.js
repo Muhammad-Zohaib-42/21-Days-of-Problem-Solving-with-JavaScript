@@ -81,3 +81,32 @@
 //     }
 //     console.log(str)
 // }
+
+// 5. Print Hollow Square Pattern
+
+// Input: Rows = 5
+
+// Output:
+
+// *****
+// *   *
+// *   *
+// *   *
+// *****
+// ✨ Practices conditional printing within nested loops.
+
+for (let i = 1; i <= 5; i++) {
+    let str = ""
+    for (let j = 1; j <= 5; j++) {
+        if (i > 1 && i < 5) {
+            if (j > 1 && j < 5) {
+                str += " "
+            } else {
+                str += "*"
+            }
+        } else {
+            str += "*"
+        }
+    }
+    console.log(str)
+}
